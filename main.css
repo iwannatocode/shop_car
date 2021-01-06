@@ -27,13 +27,13 @@
     right: 0;
     height: 100%;
     margin-top: 0;
-    background-image: url(unnamed.jpg);
+    background-image: url( icon/unnamed.jpg );
     background-repeat: no-repeat;
     background-size: cover;
 }
 input{
-    width: 240px;
-    height: 40px;
+    width: 180px;
+    height: 34px;
     border-radius: 5px;
     font-size: 21px;
 }

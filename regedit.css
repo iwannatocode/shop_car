@@ -52,3 +52,9 @@ input{
 .color{
     color: rgb(175, 9, 9);
 }
+#logo{
+    z-index: 99;
+    position: absolute;
+    top: 20px;
+    margin-left: 39%;
+}

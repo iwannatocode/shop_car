@@ -12,8 +12,11 @@
 </head>
 <body>
     <div id = "user"></div>    
-
-    <div id="title">Select your Pokemon</div>
+    <div id="set_numb">
+        <span id="title">Set number of Pokemon between 0 - 99 </span>
+        <input type="number" id="cant_poke"  min="1" max="99" required value="">
+        <div id="refresh"></div>
+    </div>
 
     <table id="table">
         <tr>
@@ -22,8 +25,11 @@
             <th>Pick</th>           
         </tr>
     </table>
-    <div id="buy_button">
-        <a href="car.html"></a>
+    <div id="cont_buy">
+        <div>Go to shop</div>
+        <div id="buy_button">
+            <a href="car.html"></a>
+        </div>
     </div>
     <script src="shop.js"></script>
 </body>

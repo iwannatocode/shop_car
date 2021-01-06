@@ -1,10 +1,12 @@
 
 *{
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 body{
     background-image: url( icon/dabff6132dc76517ac18c36df5574201.jpg );
-    color: blanchedalmond;
+  /*  color: blanchedalmond;*/
 }
 #user{
     border-bottom: 2px solid rgba(0, 0, 0, 0.459);
@@ -17,8 +19,10 @@ body{
     
 }
 table, th, td{
-    border: 2px solid rgb(180, 154, 180);
-    border-collapse: collapse;
+   /* border-collapse: collapse;*/
+   border-spacing: 40px 0px;
+    
+
 }
 td{
     width: 100px;
@@ -27,6 +31,9 @@ td{
 #table{
     width: 80%;
     margin: auto;
+}
+td{
+    border-bottom: solid    tan 2px;
 }
 #title{
     margin-top: 40px;
@@ -47,7 +54,7 @@ td{
 }
 #buy_button{
     display: block;
- /*   border: 1px solid black;  */ 
+   /* border: 1px solid white;*/
     margin: auto;
     width: 100px;
     height: 60px;
@@ -55,13 +62,56 @@ td{
    /* background-color: rgb(52, 63, 52);*/
     background-image: url( icon/img3.png );
     background-size: 100px 60px;
+   
 }
 #buy_button:hover{
     background-image: url( icon/Copia\ img3.png );
+    box-shadow: 10px 10px 15px;
    
 }
 a{
     display: block;
     width: 100px;
     height: 60px;
+}
+#set_numb{
+    margin: 20px 0 20px 0  ;
+}
+#cant_poke{
+    width: 50px;
+    height: 27px;
+    margin-left: 10px;
+    font-size: 18px;
+    text-align: center;
+}
+#refresh{
+    position: absolute;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 2px;
+    width: 30px;
+    height: 30px;
+    background-image: url(icon/refresh5.png);
+    background-size: 30PX 30px;
+    /*background-position: center;
+    background-repeat: no-repeat;*/ 
+}
+#refresh:hover{
+    background-image: url(icon/refresh4.png);
+}
+#cont_buy{
+  /*  border: blanchedalmond 1px solid;*/
+    width: 110px;
+    margin: auto;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 200px;
+}
+.btn_unmove{
+    background-color: red;
+    color: white;
+}
+.btn_move{
+    background-color: rgb(18, 151, 0);
+    color: white;
 }

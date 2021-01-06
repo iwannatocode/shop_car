@@ -2,6 +2,9 @@
 *{
     box-sizing: border-box;
 }
+body{
+    background-color: rgb(141, 80, 117);
+}
 table, th, td{
     border: 1px solid black;
     border-collapse: collapse;
@@ -45,4 +48,5 @@ img{
     text-align: center;
     padding-top: 2.9%;
     cursor: pointer;
+    margin-top: 30px;
 }
