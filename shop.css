@@ -24,6 +24,9 @@ table, th, td{
     
 
 }
+th{
+    font-size: 20px;
+}
 td{
     width: 100px;
     height: 100px;
@@ -106,6 +109,7 @@ a{
     text-align: center;
     margin-top: 40px;
     margin-bottom: 200px;
+    font-size: 25px;
 }
 .btn_unmove{
     background-color: red;
@@ -114,4 +118,14 @@ a{
 .btn_move{
     background-color: rgb(18, 151, 0);
     color: white;
+}
+#goto{
+    animation: animacion 3s;
+    animation-iteration-count:infinite ;
+}
+@keyframes animacion{
+    0%   {}
+    25%  {color: yellow;}
+    50%  {color: blue;}
+    75% {color: red;}
 }

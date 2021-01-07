@@ -12,7 +12,10 @@ $("#refresh").click(function () {
    
     cant_poke = $("#cant_poke").val();
    
-    if( isNaN( cant_poke ) == true || cant_poke == "" ) {alert( "Introdusca un numero valido" );}
+    if( cant_poke > 99|| cant_poke < 1 || cant_poke == "" ) {
+        alert( "Introdusca un numero valido" );
+        $("#cant_poke").val("");
+    }
     else{
 
     axios.get( "https://pokeapi.co/api/v2/pokemon" )

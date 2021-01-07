@@ -70,7 +70,7 @@ input{
   /* #a2{ margin-top: 2px;} */
   #a2:hover{color: rgb(218, 106, 203);}
   #a1:hover{color: rgb(218, 106, 203);}
-img{
+.img{
     width: 50px;
     height: 50px;
     margin-right: 15px;
@@ -78,6 +78,8 @@ img{
 }
 #cont_link{
     margin-top: 25px;
+  /*  border: thistle solid 2px;*/
+    width: 300px;
 }
 #nav_bar{
     position: absolute;
@@ -97,4 +99,71 @@ img{
 }
 #user, #password{
     color: rgb(129, 129, 129);
+}
+#icon1{
+    background-image: url(icon/facebook.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+ /*   border: 2px solid white;*/
+    animation: animacion1 2s;
+    display: inline-block;
+}
+@keyframes animacion1{
+    0%   {width: 50; height: 50;}
+    36%  {width: 65px; height: 65px; background-size: 65px 65px;background-image: url(icon/facebook2.png); }
+    58%  {transform: rotate(40deg)}
+    70% {width: 65px; height: 65px;transform: rotate(-30deg);background-size: 65px 65px;;background-image: url(icon/facebook2.png);}
+    100%{}
+}
+#icon2{
+    background-image: url(icon/instagram-new.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+   /* border: 2px solid white;*/
+    animation: animacion2 1.5s;
+    animation-delay: 1.5s;
+    display: inline-block;
+}
+@keyframes animacion2{
+    0%   {width: 50; height: 50;}
+    36%  {width: 65px; height: 65px; background-size: 65px 65px;background-image: url(icon/instagram-new2.png); }
+    58%  {transform: rotate(40deg)}
+    70% {width: 65px; height: 65px;transform: rotate(-30deg);background-size: 65px 65px;;background-image: url(icon/instagram-new2.png);}
+    100%{}
+}
+#icon3{
+    background-image: url(icon/twitter.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+   /* border: 2px solid white;*/
+    animation: animacion3 1.5s;
+    display: inline-block;
+    animation-delay: 3s;
+}
+@keyframes animacion3{
+    0%   {width: 50; height: 50;}
+    36%  {width: 65px; height: 65px; background-size: 65px 65px;background-image: url(icon/twitte2r.png); }
+    58%  {transform: rotate(40deg)}
+    70% {width: 65px; height: 65px;transform: rotate(-30deg);background-size: 65px 65px;;background-image: url(icon/twitte2r.png);}
+    100%{}
+}
+#icon4{
+    background-image: url(icon/youtube2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+ /*   border: 2px solid white;/*/
+    animation: animacion4 1.5s;
+    display: inline-block;
+    animation-delay: 4.5s;
+}
+@keyframes animacion4{
+    0%   {width: 50; height: 50;}
+    36%  {width: 65px; height: 65px; background-size: 65px 65px;background-image: url(icon/youtube4.png); }
+    58%  {transform: rotate(40deg)}
+    70% {width: 65px; height: 65px;transform: rotate(-30deg);background-size: 65px 65px;;background-image: url(icon/youtube4.png);}
+    100%{}
 }
